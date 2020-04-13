@@ -1,0 +1,49 @@
+/*This CSS file contains the second part of the index*/
+
+.rtx_bullshiet{
+	font-family: "Acme" , cursive;
+	font-size: 5.5vw;
+	float: left;
+	color: green;
+}
+
+.rtx_bullshiet_text{
+	position: relative;
+	width: 80%;
+	height: 70%;
+	float: right;
+	border: 1px solid white;
+	background-color: rgba(3, 1, 1,0.8);
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.rtx_bullshiet2{
+	font-family: "Acme" , cursive;
+	font-size: 5.5vw;
+	float: right;
+	color: red;
+}
+
+.rtx_bullshiet_text2{
+	position: relative;
+	width: 80%;
+	height: 70%;
+	float: left;
+	border: 1px solid white;
+	background-color: rgba(3, 1, 1,0.8);
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.rtx_actual_text{
+	margin-right: 1em;
+	margin-left: 1em;
+	font-size: 2.5vw;
+	text-align: justify;
+    text-justify: inter-word;
+   	color: black;
+  	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: black;
+}

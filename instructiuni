@@ -1,0 +1,19 @@
+INSTRUCTIUNI :
+
+1)Insereaza datele de autentificare corecte in fisierul PHP db.php din folderul db
+
+$con=mysqli_connect("adresa","nume","parola","nume_tabel");
+
+exemplu : $con=mysqli_connect("localhost","root","123","comment_box");
+
+2)DACA tabelul nu se creeaza automat, creeaza tabelul folosind comanda din fisierul comment_bax.sql din folderul SQL
+
+CREATE TABLE IF NOT EXISTS `comments` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `name` varchar(40) NOT NULL,
+  `comments` text NOT NULL,
+  `date_publish` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=17 ;
+
+3)In cazul in care se mai intampina erori, puteti incerca un force refresh la pagina (CTRL+F5)

@@ -1,0 +1,48 @@
+#comentarii{
+  font-size: 12px;
+  width: 80%;
+  margin: auto;
+}
+
+.comments_content{
+  margin:10px;
+  padding:5px;
+  background: rgba(3, 1, 1,0.8);
+  border:1px solid #CCC;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+
+  font-size: 1vw;
+  text-align: justify;
+    text-justify: inter-word;
+    color: black;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.comment_input{
+  background:#CCC;
+  margin:10px;
+  padding:10px;
+  border:1px solid #CCC;
+}
+
+.button{
+  padding:5px 15px 5px 15px;
+    background:red;
+    color: #FFF;
+  border-radius: 3px;
+}
+
+.button:hover{
+  background:#4D9494;
+}
+
+.comment_logs{
+  margin:5px;
+  padding:5px;
+  font-size: 12px;
+  border:1px solid #CCC;
+}

@@ -1,0 +1,124 @@
+/*This CSS file contains the first part + HOT DEALS of the index*/
+a.nostyle:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+#back_button{
+	display: block;
+	width: 10em;
+	font-family: "Comic Sans MS";
+	color:white;
+	position: fixed;
+}
+
+#main_title{
+	text-align: center;
+	color: white;
+	font-family: "Pacifico",cursive;
+	font-size: 6vw;
+}
+
+.line{
+	position: relative;
+	width: 65vw;
+	color: white;
+	z-index: 10;
+	background-color: white;
+}
+
+.scroll_down{
+	position: relative;
+	font-family: "Pacifico" , cursive;
+	font-size: 3vw;
+	color: white;
+	text-align: center;
+}
+
+.hot_title{
+	position: relative;
+	font-family: "Acme" , cursive;
+	font-size: 8vw;
+	color: red;
+	text-align: center;
+}
+.scroll{
+	border: 1px solid white;
+	position: relative;
+	display: block;
+	width: 70%;
+	height: 60%;
+	overflow-y: auto;
+	overflow-x: hidden;
+	/*-webkit-transform: rotate(90deg) translateY(-250px);
+			transform: rotate(90deg) translateY(-250px);
+	-webkit-transform-origin: right top;
+			transform-origin: right top;*/
+}
+.scroll2{
+	position: relative;
+	display: block;
+	width: 70%;
+	height: 60%;
+	border: 1px solid white;
+	overflow-y: auto;
+	overflow-x: hidden;
+	float: right;
+	margin-top: 1%;
+}
+.test{
+	overflow-y:auto;
+
+	/*-webkit-transform: rotate(-90deg);
+			transform: rotate(-90deg);
+	-webkit-transform-origin: right top;
+			transform-origin: right top;*/
+}
+.poze_scroll{
+	width: 100%;
+	height: auto;
+	border:1px solid white;
+}
+
+.hot_title_scroll{
+	/*position: absolute;*/
+	font-family: "Acme" , cursive;
+	font-size: 530%;
+	color: white;
+	text-align: center;
+}
+
+#float1{
+	float: right;
+}
+
+#float2{
+	float: left;
+	padding-right: 1%;
+}
+
+.space{
+	width: 100%;
+	height: 10vw;
+}
+
+.space2{
+	width:100%;
+	height: 10vw;
+}
+
+.space3{
+	width: 100%;
+	height: 63%;
+}
+
+.space4{
+	width: 100%;
+	height: 100%;
+}
+
+.space5{
+	width: 100%;
+	height: 580%;
+}
